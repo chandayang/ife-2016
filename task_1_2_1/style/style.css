@@ -1,0 +1,111 @@
+/*
+* @Author: Administrator
+* @Date:   2016-03-18 16:52:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-03-18 16:53:52
+*/
+       *{
+       	margin:0;
+       	padding:0;
+       	font-family: "microsoft yahei";
+       	font-size:14px;
+       }
+       body{
+       background:rgb(222,222,222) none repeat scroll 0 0;
+       }
+      header{
+      	background:rgb(34,195,170) none repeat scroll 0 0;
+       overflow:hidden;
+      }
+      footer{
+      	background:rgb(34,195,170) none repeat scroll 0 0;
+      	text-align: center;
+      	color:white;
+      	font-weight: bold;
+      	padding:20px;
+      }
+      .nav_logo{
+      	float:left;
+      	margin-left:50px;
+      }
+      .nav_link{
+	float:right;
+	margin-right: 50px;
+
+      }
+      .nav_link li{
+      	display:inline-block;
+    	line-height: 79px;
+    	margin-left: 10px
+      }
+      .nav_link li a{
+      	text-decoration: none;
+      	color:white;
+      }
+      article table{
+      	border-collapse: collapse;
+      	margin:0;
+      	padding:0;
+      	width:100%;
+      }
+      article table thead{
+      	background-color: #333;
+      	color:white;
+      	text-align: left;
+      	font-weight: bold
+      }
+      article table tfoot{
+	background-color: #ccc;
+	font-weight:bold;
+      }
+      th,td{
+      	border:1px solid #ccc;
+      	padding:5px;
+      }
+      article,aside{
+      	background:white none repeat scroll 0 0;
+      	box-shadow: 2px 2px 2px #848484;
+      	margin:20px 25px;
+      	padding:20px;
+      	line-height: 30px;
+      	text-indent:2em;
+      }
+      article h1,aside h1{
+      	font-size:1.5em;
+      }
+      article h2,aside h2{
+      	font-size:1.2em;
+      	color:#777;
+      }
+      article span{
+      	color:#999;
+      }
+      article ul > li{
+      	list-style:lower-roman none none;
+      }
+      article ul,article ol{
+      	margin-left:40px;
+      }
+      aside form div label{
+      	display:inline-block;
+	width:30%;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 5px
+      }
+	.formblock{
+		display:inline-block;
+		vertical-align: top
+	}
+	.hint{
+		font-size: 10px;
+		color:#999;
+	}
+	.formsubmit{
+		background-color: #35d;
+		border-radius: 10px;
+		color:white;
+		width:100%;
+		height:38px;
+		font-size:18px;
+	}
