@@ -1,0 +1,42 @@
+/*
+* @Author: Administrator
+* @Date:   2016-03-18 16:57:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-03-18 16:57:21
+*/
+body{padding:0;margin:0;}
+.wrap{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item1,.item2,.item3,.item4{
+	width:150px;
+	margin:20px;
+}
+.item1{
+	height:120px;
+	border:1px solid red;
+	
+}
+.item2{
+	height:100px;
+	border:1px solid red;
+}
+.item3{
+	height:40px;
+	border:1px solid red;
+}
+.item4{
+	height:200px;
+	border:1px solid blue;
+}
+@media(max-width: 640px){
+	.container {
+	    align-items: flex-start;
+	    flex-wrap: wrap;
+	}
+	.child4 {
+	    order: -1;
+	}
+}
