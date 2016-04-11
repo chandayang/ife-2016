@@ -1,0 +1,16 @@
+/*
+* @Author: Administrator
+* @Date:   2016-03-27 09:18:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-11 18:40:55
+*/
+.wrap{overflow:hidden;}
+ul{float:left;list-style: none;}
+ul li{float:left;width:40px;height:40px;line-height:40px;text-align:center;color:white;
+	font-weight:bold;display:inline-block;vartical-align:middle;margin:10px;background-color:red;}
+.rend{
+	float:left;width:40px;height:40px;line-height:40px;text-align:center;color:white;
+	font-weight:bold;display:inline-block;vartical-align:middle;margin:10px;background-color:red;
+}
+
+
