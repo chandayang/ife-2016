@@ -1,0 +1,22 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-11 18:51:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-12 09:00:44
+*/
+.main{
+	margin:0 auto;
+	display: block;
+	width: 500px;
+}
+#pf{
+	display:flex;
+	height: 505px;
+      align-items: flex-end;
+}
+#pf div {
+	margin: 3px;
+      width: 30px;
+      height: 0;
+      background-color: green;
+}
