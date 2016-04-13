@@ -1,0 +1,28 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-13 09:53:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-13 10:17:27
+*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.root{
+	display:flex;
+	width:800px;
+	height:300px;
+}
+div{
+	display: flex;
+	justify-content:center;
+	border:1px solid green;
+	padding:25px 20px;
+	flex-grow:1;
+}
+input[type="button"]{
+	margin-left: 20px;
+	margin-top:50px;
+	font-size: 20px;
+}
